@@ -82,11 +82,32 @@ body {
   }
 
   /* About Style */
+  .aboutbody {
+    display: flex;
+    margin-top: 20vh;
+  }
+
+
+  .aboutdescription {
+    width: 50vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .aboutpicture {
+    width: 30rem;
+  }
+
   .aboutheader {
     color: White;
-    text-decoration: underline;
   }
 
   .abouttext {
     color: white;
+  }
+
+  .aboutimage {
+    max-width: 200px;
+    max-height: auto;
+    clip-path:circle(100px at center)
   }
